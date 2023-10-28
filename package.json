@@ -5,7 +5,7 @@
   "description": "My awesome app",
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
     "lint": "eslint --fix src test",
@@ -31,7 +31,6 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.0",
     "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
 }
